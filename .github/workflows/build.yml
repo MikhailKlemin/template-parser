@@ -1,62 +1,81 @@
-name: Go Build & Test
+# This workflow builds Go binaries for Linux and Windows using a single Linux runner.
+# It's simplified to avoid the complexity of managing different shell syntaxes.
+name: Go Build & Test (Linux Runner)
 
 on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   build:
-    # Use a matrix to run on both Linux and Windows runners
+    # All jobs will run on the latest stable Ubuntu runner.
+    runs-on: ubuntu-22.04
+
     strategy:
       matrix:
+        # This matrix will create two separate jobs, both running on Linux.
+        # The 'goos' variable will be 'linux' in the first job and 'windows' in the second.
         goos: [linux, windows]
         goarch: [amd64]
-        include:
-          - goos: linux
-            os: ubuntu-22.04
-          - goos: windows
-            os: windows-latest
-
-    runs-on: ${{ matrix.os }} # Run on the native OS
 
     steps:
-      # 1. Checkout code
+      # 1. Checkout the repository code
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Setup Go with built-in caching and version from go.mod
+      # 2. Setup Go environment
+      # It automatically reads the Go version from your go.mod file and enables dependency caching.
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version-file: "go.mod"
           cache: true
 
-      # 3. Run unit tests with race detector
+      # 3. Run unit tests
+      # The -race flag is crucial for detecting concurrency issues in Go.
       - name: Run unit tests
         run: go test -race -v ./...
 
-      # 4. Build executable
+      # 4. Build the executable
+      # This step uses the matrix.goos variable to cross-compile for the target OS.
+      # The bash 'if' statement correctly appends the .exe suffix for the Windows build.
       - name: Build
         run: |
+          # Create the build directory
           mkdir -p build
+
+          # Define the output binary path
+          BINARY_NAME="build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }}"
+
+          # Add .exe suffix if the target OS is Windows
           if [ "${{ matrix.goos }}" == "windows" ]; then
-            go build -o build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.exe ./cmd/template-parser
-          else
-            go build -o build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }} ./cmd/template-parser
+            BINARY_NAME+=".exe"
           fi
 
-      # 5. Zip binaries
-      # Note: For Windows runner, 'zip' is not available by default.
-      # 'Compress-Archive' is the native PowerShell command.
-      - name: Zip binary
-        if: matrix.os == 'ubuntu-22.04'
-        run: zip -j build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip build/*
-      - name: Zip binary
-        if: matrix.os == 'windows-latest'
-        run: Compress-Archive -Path build\* -DestinationPath build\template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip
+          # Run the Go build command
+          echo "Building for ${{ matrix.goos }} -> ${BINARY_NAME}"
+          go build -o ${BINARY_NAME} ./cmd/template-parser
 
-      # 6. Upload artifact
+      # 5. Zip the binary for artifact upload
+      - name: Zip binary
+        run: |
+          cd build
+
+          # The zip command works the same for both builds since we are on a Linux runner.
+          # The -j flag junks the path, so it doesn't store the 'build/' directory inside the zip.
+          if [ "${{ matrix.goos }}" == "windows" ]; then
+            zip -j "template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip" "template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.exe"
+          else
+            zip -j "template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip" "template-parser-${{ matrix.goos }}-${{ matrix.goarch }}"
+          fi
+          cd ..
+
+      # 6. Upload the zipped binary as a workflow artifact
+      # The artifact will be named dynamically based on the target OS, e.g., "template-parser-linux-amd64".
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
