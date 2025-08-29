@@ -7,45 +7,36 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Use a matrix to run on both Linux and Windows runners
     strategy:
       matrix:
         goos: [linux, windows]
         goarch: [amd64]
+        include:
+          - goos: linux
+            os: ubuntu-22.04
+          - goos: windows
+            os: windows-latest
+
+    runs-on: ${{ matrix.os }} # Run on the native OS
 
     steps:
       # 1. Checkout code
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Setup Go
+      # 2. Setup Go with built-in caching and version from go.mod
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: 1.25
+          go-version-file: "go.mod"
+          cache: true
 
-      # 3. Use isolated Go module cache (avoids permission issues)
-      - name: Set Go module cache
-        run: |
-          mkdir -p $GITHUB_WORKSPACE/go/pkg/mod
-          echo "GOMODCACHE=$GITHUB_WORKSPACE/go/pkg/mod" >> $GITHUB_ENV
-
-      # 4. Cache Go modules
-      - name: Cache Go modules
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cache/go-build
-            ${{ github.workspace }}/go/pkg/mod
-          key: ${{ runner.os }}-go-${{ matrix.goos }}-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-go-
-
-      # 5. Run unit tests
+      # 3. Run unit tests with race detector
       - name: Run unit tests
-        run: go test ./... -v
+        run: go test -race -v ./...
 
-      # 6. Build executable
+      # 4. Build executable
       - name: Build
         run: |
           mkdir -p build
@@ -55,13 +46,17 @@ jobs:
             go build -o build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }} ./cmd/template-parser
           fi
 
-      # 7. Zip binaries (optional)
+      # 5. Zip binaries
+      # Note: For Windows runner, 'zip' is not available by default.
+      # 'Compress-Archive' is the native PowerShell command.
       - name: Zip binary
-        run: |
-          cd build
-          zip template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip *
+        if: matrix.os == 'ubuntu-22.04'
+        run: zip -j build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip build/*
+      - name: Zip binary
+        if: matrix.os == 'windows-latest'
+        run: Compress-Archive -Path build\* -DestinationPath build\template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip
 
-      # 8. Upload artifact
+      # 6. Upload artifact
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
