@@ -1,0 +1,36 @@
+# Go source files — always LF
+*.go text eol=lf
+
+# Shell scripts — always LF
+*.sh text eol=lf
+
+# YAML/JSON/CI/CD configs — always LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# HTML, CSS, JS — always LF
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+
+# Markdown, documentation — always LF
+*.md  text eol=lf
+*.txt text eol=lf
+
+# Binary files — do not attempt to change line endings
+*.exe  binary
+*.dll  binary
+*.so   binary
+*.dylib binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.zip  binary
+
+# Ignore IDE/editor-specific settings (optional but recommended)
+*.idea/* text eol=lf
+.vscode/* text eol=lf
