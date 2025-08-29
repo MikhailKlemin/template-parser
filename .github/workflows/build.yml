@@ -24,7 +24,13 @@ jobs:
         with:
           go-version: 1.25
 
-      # 3. Build executable
+      # 3. Run tests
+
+      - name: Run unit tests
+        run: |
+          go test ./... -v
+
+      # 4. Build executable
       - name: Build
         run: |
           mkdir -p build
@@ -34,7 +40,7 @@ jobs:
             go build -o build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }} ./cmd/template-parser
           fi
 
-      # 4. Upload artifacts
+      # 5. Upload artifacts
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
