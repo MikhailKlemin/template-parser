@@ -1,0 +1,1145 @@
+{
+    "language": "en",
+    "texts": [
+        {
+            "Key": "Export settings",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Import reference spectrum",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Photobleaching time",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Update delay",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Reticule mark offset",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Calcite",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.spectrum/samples.spectrum.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Organization Name",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Validation",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Back",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/report.step/report.step.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/measurement.step/measurement.step.component.html"
+            ]
+        },
+        {
+            "Key": "Save",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Consider scheduling a renewal.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.samples.info/calibration.samples.info.component.html"
+            ]
+        },
+        {
+            "Key": "Spectrum info",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/spectrum.info/spectrum.info.component.html"
+            ]
+        },
+        {
+            "Key": "Expiration date",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Status:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.validation.status/calibration.validation.status.component.html"
+            ]
+        },
+        {
+            "Key": "Measurement Recipes",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/recipe/recipe.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/recipe/recipe.component.html"
+            ]
+        },
+        {
+            "Key": "Stage",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/analyzer.info/analyzer.info.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Sample holder settings",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Next",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/measurement.step/measurement.step.component.html"
+            ]
+        },
+        {
+            "Key": "Laser Wavelength",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.spectrum/samples.spectrum.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Operation Mode",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Exposure time (ms)",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.image.dialog/system.image.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Configuration",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "FWHM",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.result/peak.fitting.result.component.html"
+            ]
+        },
+        {
+            "Key": "Warning:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Sample holder corner size",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "days",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "PASS",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.validation.status/calibration.validation.status.component.html"
+            ]
+        },
+        {
+            "Key": "Variation",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Auto-save spectra format",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Warn when validation of the sample",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Apply",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Spectrum title",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Reference intensity",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "EXPIRED",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.validation.status/calibration.validation.status.component.html"
+            ]
+        },
+        {
+            "Key": "has control. Do you want to take over?",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/main/main.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/main/main.component.html"
+            ]
+        },
+        {
+            "Key": "Tolerance",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Close",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/report.step/report.step.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "current time (hh-mm-ss)",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Analyzer name",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "System configuration",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "STOP",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.results/run.results.component.html"
+            ]
+        },
+        {
+            "Key": "Initialize Patbox Raman",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/main/main.component.html"
+            ]
+        },
+        {
+            "Key": "Intensity callibration",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Export reference spectrum",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Exposure",
+            "Value": null,
+            "Context": "components.recipeInfo",
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/recipe.info/recipe.info.component.html"
+            ]
+        },
+        {
+            "Key": "is about to expire in",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Acquire",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/measurement.step/measurement.step.component.html"
+            ]
+        },
+        {
+            "Key": "Measurement",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/run/run.component.html"
+            ]
+        },
+        {
+            "Key": "Update delay (ms)",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.image.dialog/system.image.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "sample holder name",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Iteration delay",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.setup/run.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Operation mode has been changed. Are you sure to apply new mode?",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "PENDING",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.validation.status/calibration.validation.status.component.html"
+            ]
+        },
+        {
+            "Key": "Sample Identification",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.setup/samples.list/samples.list.component.html"
+            ]
+        },
+        {
+            "Key": "Validation sample:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Auto-save path and file name. It may include following variables:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "recipe name",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Make sure sample is activated and have non-empty name.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.setup/run.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Configure",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Sample holder size",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Set reference spectrum",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "SQF",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/spectrum.info/spectrum.info.component.html"
+            ]
+        },
+        {
+            "Key": "Spectrum",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.spectrum/samples.spectrum.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Export",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.results/run.results.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/run/run.results/run.results.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/report.step/report.step.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/performance.component.html"
+            ]
+        },
+        {
+            "Key": "Center",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.setup/peak.fitting.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Cancel",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.image.dialog/system.image.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/performance.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Image",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Auto-save catalog path and file name. It may include following variables:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Recipe",
+            "Value": null,
+            "Context": "components.recipeInfo",
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/recipe.info/recipe.info.component.html"
+            ]
+        },
+        {
+            "Key": "Calibration \u0026 Validation",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Import",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/recipe/recipe.component.html"
+            ]
+        },
+        {
+            "Key": "Position",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.result/peak.fitting.result.component.html"
+            ]
+        },
+        {
+            "Key": "Detector",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/analyzer.info/analyzer.info.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/analyzer.info/analyzer.info.component.html"
+            ]
+        },
+        {
+            "Key": "Export pipeline settings",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Export source spectrum",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Fitting results",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.result/peak.fitting.result.component.html"
+            ]
+        },
+        {
+            "Key": "Save spectrum area",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Serial number",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Validate",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.image.dialog/system.image.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "System setup",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Spectral accuracy check",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/performance.component.html"
+            ]
+        },
+        {
+            "Key": "Peak",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Shift",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.result/peak.fitting.result.component.html"
+            ]
+        },
+        {
+            "Key": "Peak fitting",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.setup/peak.fitting.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.setup/peak.fitting.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Organization name",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Mean intensity",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/spectrum.info/spectrum.info.component.html"
+            ]
+        },
+        {
+            "Key": "FAIL",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.validation.status/calibration.validation.status.component.html"
+            ]
+        },
+        {
+            "Key": "Stage parameters",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Total time",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.setup/run.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Cyclohexane",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.spectrum/samples.spectrum.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Make sure at least one sample is activated. Samples should have non-empty unique names.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/run/run.setup/run.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Sample Holder Manager",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/sample.holder/sample.holder.component.html"
+            ]
+        },
+        {
+            "Key": "Accumulations",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Number of accumulations",
+            "Value": null,
+            "Context": "components.recipeInfo",
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/recipe.info/recipe.info.component.html"
+            ]
+        },
+        {
+            "Key": "Theoretical Wavelength",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Range",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.setup/peak.fitting.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Sample holder reference position",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Sample holder pre-loading position",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Auto-save spectra path",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Please make sure that the stage can safely move to the reference position.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/main/main.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/main/main.component.html"
+            ]
+        },
+        {
+            "Key": "Instrument settings",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Last validation:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.validation.status/calibration.validation.status.component.html"
+            ]
+        },
+        {
+            "Key": "Report:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/report.step/report.step.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/performance.component.html"
+            ]
+        },
+        {
+            "Key": "photobleaching time",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Profile",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Pharmacopoeia:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.validation.status/calibration.validation.status.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/start.step/start.step.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/performance.component.html"
+            ]
+        },
+        {
+            "Key": "Intensity",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "current date (YYYY-MM-DD)",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Import source spectrum",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Actual Wavelength",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Save spectrum",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/spectrum.info/spectrum.info.component.html"
+            ]
+        },
+        {
+            "Key": "Import settings",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "number of accumulations",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "sample ID",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Analyzer model",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Polystyrene",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.spectrum/samples.spectrum.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/spectral.accuracy/spectral.accuracy.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Sample",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/run/run.setup/samples.list/samples.list.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.tree/tree.ts"
+            ]
+        },
+        {
+            "Key": "Preset",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.setup/peak.fitting.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Import lookup table",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Iteration",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.tree/tree.ts"
+            ]
+        },
+        {
+            "Key": "Equipment Performance",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/performance/performance.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/performance/performance.component.html"
+            ]
+        },
+        {
+            "Key": "Add peak",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.setup/peak.fitting.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Exposure time",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Analyzer validation expires in",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.validation.dialog/system.validation.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Sample holder",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/run/run.results/run.results.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/run/run.setup/run.setup.component.html"
+            ]
+        },
+        {
+            "Key": "System",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Analyzer serial number",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Channel unit",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Formula",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/peak.fitting.setup/peak.fitting.setup.component.html"
+            ]
+        },
+        {
+            "Key": "Export lookup table",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Spectrum parameters",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Expiring in",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.samples.info/calibration.samples.info.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.samples.info/calibration.samples.info.component.html"
+            ]
+        },
+        {
+            "Key": "Delays lower than 100 ms may cause slower responses or unexpected behavior. Please confirm if this is intended.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrum.dialog/system.spectrum.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Select all",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/samples.tree/samples.tree.component.html"
+            ]
+        },
+        {
+            "Key": "Image parameters",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.image.dialog/system.image.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Spectrometer",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.setup.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.setup.component.html"
+            ]
+        },
+        {
+            "Key": "iteration number (for multi-iteration measurements)",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Auto-save catalog path",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Export trigger",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Spectrometer parameters",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Lookup table",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/system.spectrometer.dialog/system.spectrometer.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Sample holder loading/unloading position",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Calibration sample:",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.stage.dialog/system.stage.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "(Expired) Validation cannot be performed. Contact HORIBA for renewal.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.samples.info/calibration.samples.info.component.html"
+            ]
+        },
+        {
+            "Key": "Contact HORIBA for renewal.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.samples.info/calibration.samples.info.component.html"
+            ]
+        },
+        {
+            "Key": "Photobleaching",
+            "Value": null,
+            "Context": "components.recipeInfo",
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/recipe.info/recipe.info.component.html"
+            ]
+        },
+        {
+            "Key": "Device Name",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/patbox/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/ui/app/components/system.setup/system.settings.dialog/system.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "exposure time",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html",
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/pipeline.settings.dialog/pipeline.settings.dialog.component.html"
+            ]
+        },
+        {
+            "Key": "Incorrect samples expiration date settings.",
+            "Value": null,
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/calibration.samples.info/calibration.samples.info.component.html"
+            ]
+        },
+        {
+            "Key": "Iterations",
+            "Value": null,
+            "Context": "components.recipeInfo",
+            "Sources": [
+                "/home/mike/wdc4.1/Projects/htram-NpmApp/projects/lib/components/recipe.info/recipe.info.component.html"
+            ]
+        }
+    ]
+}

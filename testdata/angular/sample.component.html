@@ -1,0 +1,115 @@
+<div class="toolbar" nlsContext="components.recipeInfo">
+    <div class="toolbar__field">
+        <div class="toolbar__field__caption">
+            {{ 'Recipe' | nls }}
+        </div>
+
+        <kendo-dropdownlist
+            fillMode="solid"
+            class="toolbar__field__input--medium"
+            [data]="recipes"
+            [(ngModel)]="recipeName"
+            textField="DisplayName"
+            valueField="Name"
+            [valuePrimitive]="true"
+            [disabled]="isDisabled || !isEditable"
+            [listHeight]="400">
+            <ng-template kendoDropDownListItemTemplate kendoDropDownListValueTemplate let-dataItem let-this>
+                <span class="toolbar__input__box">
+                    @if (dataItem?.DisplayName) {
+                        @if (dataItem?.IsPinned) {
+                            <kendo-svg-icon [icon]="dataItem?.IsPinned ? pinIcon : unpinIcon"></kendo-svg-icon>
+                        } @else if (!allUnpinned()) {
+                            <kendo-svg-icon class="hidden" [icon]="dataItem?.IsPinned ? pinIcon : unpinIcon"></kendo-svg-icon>
+                        }
+                    }
+                    @if (dataItem?.State && showRecipeStatus) {
+                        <astra-model-status
+                            class="toolbar__input__indicator"
+                            [value]="dataItem?.State"
+                            [astraModelStatusColor]="dataItem?.State"></astra-model-status>
+                    }
+                    <span>{{ dataItem?.DisplayName || '---' }}</span>
+                    <!-- <span>{{ dataItem?.LastUsed | nlsDate:'G' }}</span> -->
+                </span>
+            </ng-template>
+        </kendo-dropdownlist>
+    </div>
+
+    <ng-container *ngIf="showIterations">
+        <div class="toolbar__field">
+            <div class="toolbar__field__caption">{{ 'Iterations' | nls }}</div>
+            <kendo-numerictextbox
+                class="toolbar__field__input--tiny"
+                fillMode="flat"
+                [(ngModel)]="numIterations"
+                [spinners]="!isDisabled || !isEditable"
+                format="#"
+                [min]="1"
+                [max]="99"
+                [autoCorrect]="true"
+                [disabled]="isDisabled || !isEditable"></kendo-numerictextbox>
+        </div>
+    </ng-container>
+
+    <div class="toolbar__field">
+        <div nlsContext="photobleaching" class="toolbar__field__caption">{{ 'Photobleaching' | nls }}</div>
+        <kendo-numerictextbox
+            class="toolbar__field__input--small"
+            [value]="photobleachingMs"
+            fillMode="solid"
+            [spinners]="false"
+            [disabled]="true"
+            format="#. ms"
+            [autoCorrect]="true"
+            [min]="1"></kendo-numerictextbox>
+    </div>
+
+    <div class="toolbar__field">
+        <ng-content *ngTemplateOutlet="paramsTemplate"></ng-content>
+    </div>
+
+    <div class="toolbar__field">
+        <div nlsContext="exposure" class="toolbar__field__caption">{{ 'Exposure' | nls }}</div>
+        <kendo-numerictextbox
+            class="toolbar__field__input--small"
+            [value]="exposureMs"
+            fillMode="solid"
+            [spinners]="false"
+            [disabled]="true"
+            format="#. ms"
+            [autoCorrect]="true"
+            [min]="1"></kendo-numerictextbox>
+    </div>
+
+    <div class="toolbar__field">
+        <div class="toolbar__field__caption">{{ 'Number of accumulations' | nls }}</div>
+        <kendo-numerictextbox
+            class="toolbar__field__input--tiny"
+            [value]="numAccumulations"
+            fillMode="flat"
+            [spinners]="false"
+            [disabled]="true"
+            format="n0"
+            [autoCorrect]="true"
+            [min]="1"
+            [max]="100"></kendo-numerictextbox>
+    </div>
+    @if (isEditable) {
+        <div class="toolbar__field">
+            <lib-export-pipeline
+                [isRecipePipeline]="true"
+                [isReadOnly]="isDisabled"
+                [isDisabled]="isDisabled"
+                [(isPipelineEnabled)]="isPipelineEnabled"></lib-export-pipeline>
+        </div>
+    } @else {
+        <div class="toolbar__field hidden">
+            <lib-export-pipeline
+                [isRecipePipeline]="true"
+                [isReadOnly]="isDisabled"
+                [isDisabled]="isDisabled"
+                [(isPipelineEnabled)]="isPipelineEnabled"></lib-export-pipeline>
+        </div>
+    }
+</div>
