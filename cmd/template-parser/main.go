@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"maps"
+	"os"
 	"strings"
 	"template-parser/internal/combiner"
 	"template-parser/internal/exporter"
@@ -48,6 +49,10 @@ func main() {
 	}
 
 	merged = combiner.MergeTextsByKeyAndContext(result)
-	exporter.ExportToJSON(merged, "en", *out)
+	file, err := os.Create(*out)
+	if err != nil {
+		panic(err)
+	}
+	exporter.ExportToJSONWriter(merged, "en", file)
 
 }
