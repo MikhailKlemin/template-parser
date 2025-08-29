@@ -1,4 +1,4 @@
-name: Go Build
+name: Go Build & Test
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
         goarch: [amd64]
 
     steps:
-      # 1. Checkout the repo
+      # 1. Checkout code
       - name: Checkout code
         uses: actions/checkout@v4
 
@@ -24,7 +24,13 @@ jobs:
         with:
           go-version: 1.25
 
-        # 3. Cache Go
+      # 3. Clear Go module cache (prevents tar warnings)
+      - name: Clear Go module cache
+        run: |
+          rm -rf ~/go/pkg/mod
+          rm -rf ~/.cache/go-build
+
+      # 4. Cache Go modules
       - name: Cache Go modules
         uses: actions/cache@v3
         with:
@@ -35,12 +41,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-go-
 
-      # 4. Run tests
+      # 5. Run unit tests
       - name: Run unit tests
-        run: |
-          go test ./... -v
+        run: go test ./... -v
 
-      # 5. Build executable
+      # 6. Build executable
       - name: Build
         run: |
           mkdir -p build
@@ -50,9 +55,15 @@ jobs:
             go build -o build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }} ./cmd/template-parser
           fi
 
-      # 6. Upload artifacts
+      # 7. Zip binaries (optional, cleaner artifacts)
+      - name: Zip binary
+        run: |
+          cd build
+          zip template-parser-${{ matrix.goos }}-${{ matrix.goarch }}.zip *
+
+      # 8. Upload artifact
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: template-parser-${{ matrix.goos }}-${{ matrix.goarch }}
-          path: build/*
+          path: build/*.zip
