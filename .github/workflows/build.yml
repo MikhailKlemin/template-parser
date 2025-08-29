@@ -24,11 +24,11 @@ jobs:
         with:
           go-version: 1.25
 
-      # 3. Clear Go module cache (prevents tar warnings)
-      - name: Clear Go module cache
+      # 3. Use isolated Go module cache (avoids permission issues)
+      - name: Set Go module cache
         run: |
-          rm -rf ~/go/pkg/mod
-          rm -rf ~/.cache/go-build
+          mkdir -p $GITHUB_WORKSPACE/go/pkg/mod
+          echo "GOMODCACHE=$GITHUB_WORKSPACE/go/pkg/mod" >> $GITHUB_ENV
 
       # 4. Cache Go modules
       - name: Cache Go modules
@@ -36,7 +36,7 @@ jobs:
         with:
           path: |
             ~/.cache/go-build
-            ~/go/pkg/mod
+            ${{ github.workspace }}/go/pkg/mod
           key: ${{ runner.os }}-go-${{ matrix.goos }}-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-
@@ -55,7 +55,7 @@ jobs:
             go build -o build/template-parser-${{ matrix.goos }}-${{ matrix.goarch }} ./cmd/template-parser
           fi
 
-      # 7. Zip binaries (optional, cleaner artifacts)
+      # 7. Zip binaries (optional)
       - name: Zip binary
         run: |
           cd build
