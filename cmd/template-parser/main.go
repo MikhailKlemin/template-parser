@@ -20,6 +20,8 @@ func main() {
 	//lang := flag.String("lang", "en", "Target language code")
 	out := flag.String("out", "translations.json", "Output JSON file")
 	//flag.BoolVar(&verbose, "v", false, "Enable verbose logging")
+	pretty := flag.Bool("pretty", false, "pretty-print JSON")
+	debug := flag.Bool("debug", false, "include debug info (sources, etc.)")
 	flag.Parse()
 
 	files, err := walker.Walk(*dir)
@@ -53,6 +55,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	exporter.ExportToJSONWriter(merged, "en", file)
+	opts := exporter.ExportOptions{Pretty: *pretty, IncludeSources: *debug}
+	exporter.ExportToJSONWriter(merged, "en", file, opts)
 
 }
